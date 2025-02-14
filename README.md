@@ -31,3 +31,5 @@ Se probaron los siguientes modelos:
 * Los tres modelos tienen valores similares en las cuatro métricas. Lo que indica que ninguno modelo es eficaz.
 
 ## Sugerencias
+* Es posible que estos modelos no sean los más adecuados para el problema. Podría probar con modelos más complejos, como Redes Neuronales.
+* Podria revisa si hay características que puedan mejorar la predicción o si los datos están correctamente etiquetados y preparados para el modelado.
