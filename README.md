@@ -14,10 +14,20 @@ Se probaron los siguientes modelos:
 * Gradient Boosting 
 * CatBoost
 
-## Las métricas utilizadas para evaluar los modelos fueron: MSE, RMSE, MAE y R².
+## Las métricas utilizadas para evaluar los modelos fueron: MSE, RMSE, MAE y R2.
 
-|Modelo|	MSE|	R²|	RMSE|	MAE|
+|Modelo|	MSE|	R2|	RMSE|	MAE|
 |:-----|:-----|:-----|:-----|:-----|
 |Árbol de Decisión|	1516.11|	0.0003|	38.93|	33.66|
 |Gradient Boosting|	1514.82|	0.0011|	38.92|	33.64|
 |CatBoostRegressor|	1515.05|	0.0010|	38.92|	33.65|
+
+## Conclusiones
+
+* El MSE es similar en los tres modelos. Lo que quiere decir que tienen el mismo rendimiento.
+* El RMSE es relativamente alto lo que indica que el modelo no esta haciendo predicciones precisas.
+* El R2 en los tres modelos es muy cercano a cero lo que indica que el modelo no esta explicando practicamente nada.
+* El MAE tambien es alto,osea las prediciones se desvian 33.6 aproximadamente.
+* Los tres modelos tienen valores similares en las cuatro métricas. Lo que indica que ninguno modelo es eficaz.
+
+## Sugerencias
